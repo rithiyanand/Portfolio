@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+}
+*{
+    
+    margin: 0px;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    color:rgb(170, 236, 236);
+    margin: 15px 0 auto 0;
+    font-size: 5.625rem;
+    padding-left: 10px;
+    
+}
+h2{
+    font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-left: 200px;
+}
+.top-container{
+    background-color: rgb(207, 239, 239);
+    padding-top: 100px;
+    position: relative;
+}
+.top-cloud{
+    position: absolute;
+    top:50px;
+    right: 300px;
+
+}
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom: 600px;
+}
+.Pro{
+    text-decoration: underline;
+}
+h3{
+    color: rgb(68, 112, 112);
+    margin: 30px;
+    
+    
+}
+.one h3{
+    display: inline;
+ 
+}
+
+h3{
+    border: 0px solid rgb(230, 172, 172) ;
+    padding: 7px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h3:hover{
+    background-color: rgb(176, 168, 236);
+    color: white;
+}
+
+
+.content {
+    font-size: 100px;
+    padding-top: 100px;
+}
+.skill-chilli-1{
+    float: left;
+    padding: 60px;
+    
+}
+p{
+    font-size: 20px;
+}
+
+
+

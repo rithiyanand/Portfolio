@@ -1,0 +1,14 @@
+.drop:hover{
+    box-shadow: 2px 2px 2px 20px yellow;
+}
+.box{
+   
+    filter:box-shadow(2px 2px 2px 20px red);
+}
+.one{
+    color:aqua;
+}
+
+img:HOVER{
+    opacity: 0.5;
+}

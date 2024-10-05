@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="drop.css">
+    <style>
+        .content{
+            display: inline-block;
+            position: relative;
+        }
+        .sidebar {
+            position: absolute;
+            background-color: lightgray;
+            padding: 10px;
+            display: none;
+            min-width: 200px;
+        }
+        .content:hover .sidebar {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <span>Hello</span>
+    <div class="sidebar">
+        <p>welcome</p>
+    </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,162 @@
+
+
+body{
+    background-color: rgb(239, 166, 31);
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: white;
+    color: orange;
+    height: 65px;
+    
+}
+ h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    position: relative;
+    margin-top: 3px;
+}
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid white ;
+    border-radius: 20px;
+    padding: 7px;
+    background-color:white ;
+}
+
+a:hover{
+    background-color: orange;
+    color: white;
+    transition-duration: 0.5s;
+}
+a,h1,nav{
+    display: inline;
+}
+nav{
+    position: relative;
+    left: 20%;
+    bottom: 7px;
+}
+a{
+    margin: 90px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.two h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: underline black;
+}
+.container{
+    display:inline;
+}
+.image-1{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+
+}
+.container h4{
+    color:black;
+}
+.container p{
+    color: red;
+}
+.image-1{
+    position: relative;
+    left: 15%;
+    top: 30px;
+}
+
+.image-1 img{
+    width: 200px;
+    height: 200px;
+}
+.image-2{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+.image-2{
+    position: relative;
+    left:20%;
+    bottom: 40px;
+}
+.image-3{
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-3{
+    position: relative;
+    left:25%;
+    top:30px;
+}
+.image-3 img{
+    width: 200px;
+    height: 200px;
+}
+.container img:hover{
+    color:red;
+}
+hr{
+    border: 1px solid black;
+}
+button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: orange;
+    color: white;
+    transition-duration: 0.3s;
+}
+button{
+    position: relative;
+    left: 46%;
+    bottom: 15px;
+}
+.about h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.about img{
+    width: 300px;
+    height: 300px;
+    padding-left: 38%;
+}
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+}
+.contact h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.contact p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
